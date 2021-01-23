@@ -1,0 +1,9 @@
+FROM ubuntu
+
+MAINTAINER Lalit
+
+RUN apt-get update
+
+ENTRYPOINT ["echo"]
+
+CMD ["Welcome to lalit's first image!"]
